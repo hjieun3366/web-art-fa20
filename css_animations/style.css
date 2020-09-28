@@ -1,0 +1,42 @@
+/*.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background: gray;
+}
+
+.wrapper:hover {
+cursor: url("pepe.png"), default;
+}*/
+
+.box{
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation-name: grow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(1,.16,.24,1.5);
+    animation-fill-mode: forwards;
+}
+
+@keyframes grow {
+    from{
+        width: 100px;
+        height: 100px;
+        top: 0px;
+        left: 0px;
+        background: greenyellow;
+    }
+    
+    to{
+        width: 200px;
+        height: 400px;
+        top: 100px;
+        left: 400px;
+        background: rebeccapurple;
+    }
+}
