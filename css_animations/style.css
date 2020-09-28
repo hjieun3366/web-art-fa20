@@ -12,11 +12,11 @@ cursor: url("pepe.png"), default;
     width: 100px;
     height: 100px;
     background: greenyellow;
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 0px;
     animation-name: grow;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: cubic-bezier(1,.16,.24,1.5);
@@ -24,15 +24,37 @@ cursor: url("pepe.png"), default;
 }
 
 @keyframes grow {
-    from{
+    /*from*/
+    0%{
         width: 100px;
         height: 100px;
         top: 0px;
         left: 0px;
         background: greenyellow;
+        border-radius: 0%;
     }
     
-    to{
+    
+    50%{
+        width: 100px;
+        height: 800px;
+        left: 0px;
+        top: 0px;
+        background: orangered;
+        border-radius: 50%;
+    }
+    /*
+    80%{
+        width: 100px;
+        height: 800px;
+        left: 0px;
+        top: 0px;
+        background: orangered;
+    }
+    */
+
+    /*to*/
+    100%{
         width: 200px;
         height: 400px;
         top: 100px;
