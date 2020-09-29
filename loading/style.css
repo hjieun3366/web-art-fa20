@@ -1,0 +1,14 @@
+html {
+    font-family: Arial;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    background: yellow;
+    width: max-content;
+    margin: 20px;
+}
