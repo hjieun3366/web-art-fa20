@@ -1,3 +1,25 @@
+*{margin: 0; padding:0;}
 html {
     font-family: 'comic sans ms'
+}
+
+.waiting{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    animation-name: circle;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forward;
+}
+
+@keyframes circle{
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1) rotateZ(360deg);
+    }
 }
