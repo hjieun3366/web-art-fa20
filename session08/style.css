@@ -1,0 +1,52 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+:root {
+    scrollbar-color: green blue;
+    scrollbar-width: thithick !important;
+}
+
+body::-webkit-scrollbar-trak {
+    background: blue;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: orange;
+}
+
+html {
+    font-family:'VT323',monospace;
+}
+
+body {
+    max-height: 100vh;
+}
+
+header {
+    width: clamp(200px, 30vw, 400px);
+    height: 100vh;
+    background: lightskyblue;
+    overflow-y: scroll;
+}
+
+.sidebar-navigation {
+    background: rgb(191, 226, 248);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.sidebar-navigation {
+    color: seagreen;
+    text-decoration: none;
+    background: lightslategrey;
+    margin: px;
+}
+
+.sidebar-navigation a:hover {
+    background: black;
+    color: greenyellow;
+
+}
