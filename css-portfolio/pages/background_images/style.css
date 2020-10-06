@@ -1,4 +1,18 @@
+
+
 body {
-    background-image: url("images/source.gif")
+    background-image: url("images/flowerbackground.jpg");
+    font-family: helvetica;
+    text-align: center;
+    background-position: center;
+    height: 100%;
+    width:100%;
+    justify-content: center;
+    background-repeat: no-repeat;
 }
 
+.image {
+    margin: center;
+    width: 200px;
+    height: 200px;
+}
