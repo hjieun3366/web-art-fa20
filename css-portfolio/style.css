@@ -6,39 +6,43 @@
 
 header {
     padding: 10vmin;
-    background: #0008;
+    background: #0f4c81;
     text-align: center;
     margin-bottom: 2vmin;
 }
 
 header h1 {
     font-size: 10vmin;
+    font-family: helvetica;
+    color: white;
 }
 
-.d1{background: red;}
-.d2{background: orange;}
-.d3{background: yellow;}
-.d4{background: green;}
-.d5{background: blue;}
-.d6{background: darkblue;}
-.d7{background: purple;}
-.d8{background: violet;}
-.d9{background: lightgreen;}
-.d10{background: gray;}
-.d11{background: lime;}
-.d12{background: red;}
+.d1{background: #00060D;}
+.d2{background: #044BD9;}
+.d3{background: blue;}
+.d4{background: #012840;}
+.d5{background: #073359;}
+.d6{background: #447391;}
+.d7{background: #030BA6;}
+.d8{background: #4CB1F7;}
+.d9{background: #011640;}
+.d10{background: #0388A6;}
+.d11{background:#2604bf;}
+.d12{background: #083e4b;}
 
 .container {
     min-height: 200px;
     min-height: 300px;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-gap: 20px 20px;
     font-family: consolas;
     color: white;
     text-align: center;
+    padding: 10vmin;
+    justify-content: center;
 }
 
 .wrapper {
@@ -56,4 +60,8 @@ header h1 {
 
 .gallery__item {
     margin: 2vmin;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    padding: 5px;
 }
