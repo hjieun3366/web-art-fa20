@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-html{
-    font-family: Arial;
-}
-
 header {
     padding: 10vmin;
     background: #0008;
@@ -17,6 +13,32 @@ header {
 
 header h1 {
     font-size: 10vmin;
+}
+
+.d1{background: red;}
+.d2{background: orange;}
+.d3{background: yellow;}
+.d4{background: green;}
+.d5{background: blue;}
+.d6{background: darkblue;}
+.d7{background: purple;}
+.d8{background: violet;}
+.d9{background: lightgreen;}
+.d10{background: gray;}
+.d11{background: lime;}
+.d12{background: red;}
+
+.container {
+    min-height: 200px;
+    min-height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px 20px;
+    font-family: consolas;
+    color: white;
+    text-align: center;
 }
 
 .wrapper {
