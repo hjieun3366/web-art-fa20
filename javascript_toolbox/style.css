@@ -7,4 +7,34 @@ h1 {
     height: 20vmin;
     background: lightcoral;
     margin: 20px;
+
+}
+
+.my-special-rotate-class {
+    animation: rotateBox 2s infinite linear;
+}
+
+.cool-box {
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 0, 255);
+
+    /*박스 정렬*/
+    display: inline-block;
+    margin: 5px;
+}
+
+.space-filler {
+    width: 20vw;
+    height: 500vh;
+    background: lightblue;
+}
+
+.some-text {
+    position: absolute;
+}
+
+@keyframes rotate {
+    from {transform: rotateZ(0deg)};
+    to {transform: rotateZ(360deg)};
 }
