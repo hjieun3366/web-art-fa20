@@ -1,19 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <script src="../libraries/p5.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="./libraries/p5.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
 
-  </head>
-  <body>
+    <div class="gallery d1">
+        <div class="gallery__item">
+          <a href="cascading/index.html">
+            <img src="//picsum.photos/200/200" alt="media queries thumbnail" class="gallery__img">
+          </a>
+          <p class="caption">cascading</p>
+        </div>
+    </div>
 
-    <div id="sketch-parent"></div>
+    <div class="gallery d2">
+        <div class="gallery__item">
+          <a href="wave/">
+            <img src="//picsum.photos/200/200" alt="media queries thumbnail" class="gallery__img">
+          </a>
+          <p class="caption">wave</p>
+        </div>
+    </div>
 
-    <h1>Hey this is cool</h1>
+    <div class="gallery d3">
+      <div class="gallery__item">
+        <a href="html_video/">
+          <img src="//picsum.photos/200/200" alt="media queries thumbnail" class="gallery__img">
+        </a>
+        <p class="caption">?</p>
+      </div>
+  </div>
 
+  <script src="cascading/sketch.js"></script>
+  <script src="wave/sketch.js"></script>
 
-
-    <script src="sketch.js"></script>
-  </body>
+</body>
 </html>

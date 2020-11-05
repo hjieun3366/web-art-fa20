@@ -1,25 +1,53 @@
-html, body {
+* {
     margin: 0;
     padding: 0;
-  }
-  canvas {
-    display: block;
-  }
+    box-sizing: border-box;
+}
 
-  body {
-      font-family: Arial;
-      color: white;
-  }
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
 
-  body:hover {
-      cursor: none;
-  }
+.d1{background: #5c6368;}
+.d2{background: #1d2627;}
+.d3{background: #b2b5b8;}
 
-  #sketch-parent {
-      position: fixed;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      z-index: -1;
-  }
-  
+.container {
+    min-height: 200px;
+    min-height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px 20px;
+    font-family: helvetica;
+    color: white;
+    text-align: center;
+    padding: 10vmin;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100vw;
+    max-width: 1200vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery__item {
+    margin: 2vmin;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    padding: 5px;
+}

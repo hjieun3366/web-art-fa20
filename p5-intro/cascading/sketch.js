@@ -18,12 +18,12 @@ function setup() {
 }
 
 function windowResized() {
-    resizeCanvas(windowWidth, windowHeight);
-    background(127, 0, 150);
+  resizeCanvas(windowWidth, windowHeight);
+  background(0);
 }
 
 function draw() {
-  background(0, 10);
+  //background(127, 0, 150);
   
   fill(x, y, x/y);
   ellipse(x, y, 20, 20);
