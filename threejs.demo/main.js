@@ -75,3 +75,8 @@ window.addEventListener("resize", function(){
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.render(scene, camera);
 });
+
+renerder.setAnimationLoop() {
+    controls.update();
+    renderer.render(scene, camera);
+}
